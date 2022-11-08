@@ -10,10 +10,15 @@
     padding: 0px;
     margin: 0px;
 }
+*{
+    transition: all 800ms;
+}
 
 /* Main container */
 body{
-    background-color: black;
+    background: url('../assets/stars.jpg');
+    background-repeat: no-repeat;
+    background-size: 110vw 110vh;
     position: relative;
     min-width: 100vw;
     min-height: 100vh;
@@ -101,7 +106,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 140vw 140vw;
-    transition: all 400ms;
     z-index: 1;
 }
 /*Image area*/

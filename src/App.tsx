@@ -26,14 +26,20 @@ function App() {
     }
   }
   const handleOnHover = () => {
-    if(orientation === Orientation.LANDSCAPE){
+    if(orientation === Orientation.LANDSCAPE){      
       containerElement.current.style.top = "50vh";
+      containerElement.current.style.transform = "rotate(30deg)";
+    } else {
+      containerElement.current.style.left = "-100vw";
       containerElement.current.style.transform = "rotate(30deg)";
     }
   }
   const handleRemoveHover = () => {
     if(orientation === Orientation.LANDSCAPE){
       containerElement.current.style.top = "70vh";
+      containerElement.current.style.transform = "rotate(-30deg)";
+    }else {
+      containerElement.current.style.left = "-120vw";
       containerElement.current.style.transform = "rotate(-30deg)";
     }
     
