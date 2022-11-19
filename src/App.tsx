@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+//Just a fun little project
 
 //Declaring an orientatin Enum
 enum Orientation {
