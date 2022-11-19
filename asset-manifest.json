@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cool-website/static/css/main.07273b2e.css",
+    "main.js": "/cool-website/static/js/main.50448c63.js",
+    "static/media/stars.jpg": "/cool-website/static/media/stars.8e6bee5a8646f9497301.jpg",
+    "static/media/earth.png": "/cool-website/static/media/earth.7316075d86b11ba8ba2f.png",
+    "index.html": "/cool-website/index.html",
+    "main.07273b2e.css.map": "/cool-website/static/css/main.07273b2e.css.map",
+    "main.50448c63.js.map": "/cool-website/static/js/main.50448c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07273b2e.css",
+    "static/js/main.50448c63.js"
+  ]
+}
